@@ -1,0 +1,124 @@
+#app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c504c;
+}
+
+.v-toolbar__content > a > img {
+    height: 48px;
+}
+
+.input-group {
+    width: 50%;
+}
+
+.navbar > div > a {
+    margin: 0 1.5em;
+    color: #fff;
+}
+
+.template {
+    width: 90%;
+    background-color: #302930;
+    margin: 2em auto;
+    padding: 5em 1em;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    background-color: aliceblue;
+    padding: 3em 0;
+    overflow: auto;
+}
+
+.row {
+    margin: 1em 3em;
+}
+
+.m-b {
+    margin-bottom: 10px;
+}
+
+.fl-right {
+    float: right;
+}
+
+.fl-left {
+    float: left;
+}
+
+.profile form img {
+    width: 19em;
+    height: 18em;
+    background: #fff url("../img/user_photo.png") no-repeat;
+    display: flex;
+}
+
+.profile button {
+    color: #42b983;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.dropdown {
+    float: left;
+    margin-left: 2%;
+}
+
+.slidecontainer {
+    float: right;
+    margin-left: 1em;
+}
+
+.slider {
+    -webkit-appearance: none;
+    height: 0.2em;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background: #42b983;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background: #42b983;
+    cursor: pointer;
+}
+
+.slidecontainer > span {
+    display: block;
+    font-size: 0.8em;
+}
+
+.submit {
+    color: #42b983;
+    font-weight: 700;
+}
+
+.error {
+    /*color: red;*/
+    /*background-color: lightgrey;*/
+}
+
